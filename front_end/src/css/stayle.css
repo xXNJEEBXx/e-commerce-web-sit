@@ -1,0 +1,50 @@
+.products-card-row-active {
+    display: inline-block;
+}
+
+.chang-part {
+    color: blue;
+    border: 1px solid rgb(175, 173, 173);
+    margin-block: 100px;
+    background: #fff;
+    font-size: 20px;
+    width: 33.33%;
+    cursor: pointer;
+    height: 70px;
+    display: inline-block;
+}
+
+.chang-part:hover {
+    color: #fff;
+    background: blue;
+}
+
+.chang-part-active {
+    color: #fff;
+    border: 1px solid rgb(175, 173, 173);
+    margin-block: 100px;
+    background: blue;
+    font-size: 20px;
+    width: 33.33%;
+    height: 70px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.product-card:hover .buy-now-blue {
+    background: blue;
+}
+
+
+
+
+
+#back-ground-img ::after {
+    content: attr(data-label);
+    width: 100px;
+    height: 100px;
+}
+
+.drag-filis-border {
+    border-style: solid;
+}
